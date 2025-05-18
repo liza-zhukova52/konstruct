@@ -1,0 +1,76 @@
+.hero-title {
+    font-family: 'BebasNeueBold', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 5.71px;
+    text-transform: uppercase;
+    text-align: center;
+}
+a {
+    font-family: 'OpenSans', sans-serif;
+    cursor: pointer;
+}
+p {
+    font-family: 'OpenSans', sans-serif;
+}
+.hero-description {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+}
+.hero-scroll {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 100%;
+    margin-bottom: 71px;
+}
+.hero {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.hero-logo {
+    height: 21px;
+    width: 102px;
+    margin-top: 41px;
+}
+.hero-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0 23px;
+}
+.header-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.header-nav__link {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 1.09px;
+    color: #48555B;
+}
+.text-blue {
+    color: #00A4E5;
+}
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 50px;
+    }
+}
