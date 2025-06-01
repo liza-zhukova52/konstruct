@@ -132,6 +132,104 @@ p {
     font-size: 11px;
     line-height: 173%;
     letter-spacing: 0.2px;
+    color: #48555B;
+    max-width: 385px;
+}
+.our-capabilities__header {
+    display: flex;
+    justify-content: space-between;
+}
+.our-capabilities__button {
+    height: 40px;
+    background-color: #00A4E5;
+    color: #fff;
+    font-family: 'OpenSans', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 100%;
+    font-weight: 700;
+    font-size: 13px;
+    display: inline-block;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-capabilities__header-description {
+    display: flex;
+    gap: 32px;
+}
+.our-capabilities {
+    margin-top: 118px;
+}
+.our-capabilities__card-titile {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.43px;
+    color: #48555B;
+    margin-bottom: 13px;
+}
+.our-capabilities__card-text {
+    font-weight: 400;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+    color: #48555B;
+}
+.our-capabilities__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 28px;
+    margin-top: 76px;
+}
+.our-capabilities__card {
+    padding: 38px 17px;
+    border: 1px solid #E6E6E6;
+}
+.our-capabilities__card-image {
+    margin-bottom: 25px;
+}
+.contact__title {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0.15px;
+    color: #48555B;
+    max-width: 350px;
+    text-align: center;
+}
+.contact__button {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    color: #fff;
+    padding: 11px 26px;
+    background-color: #00A4E5;
+    display: inline-block;
+}
+.contact-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    height: 500px;
+}
+.contact {
+    margin-top: 115px;
+    height: 500px;
+    background-image: url('../images/bg-city.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    .our-capabilities__header {
+        flex-direction: column;
+    }
 }
 @media (max-width: 640px) {
     .our-story__main {
