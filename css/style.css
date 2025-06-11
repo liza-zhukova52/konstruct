@@ -226,6 +226,102 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.newsletter {
+    background-color: #171819;
+}
+.submit-button {
+    color: #fff;
+    background-color: #00A4E5;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    line-height: 100%;
+    border: none;
+    min-width: 150px;
+    height: 40px;
+}
+.input_email {
+    min-width: 250px;
+    height: 40px;
+    padding-left: 16px;
+}
+.newsletter-inner {
+    display: flex;
+    align-items: center;
+    gap: 86px;
+    justify-content: center;
+    padding-block: 30px;
+}
+.newsletter__title {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0.85px;
+    color: #fff;
+}
+.column-company__text {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 172%;
+    letter-spacing: 0.85px;
+    padding-top: 15px;
+    color: #fff;
+    max-width: 237px;
+}
+.footer {
+    background-color: #141A20;
+}
+.column-company__title {
+    color: #fff;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.85px;
+    padding-bottom: 19px;
+}
+.column-links__title {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.85px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.column-links__link {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 227%;
+    letter-spacing: 0.85px;
+    color: #fff;
+}
+.column-links__first, 
+.column-links__second,
+.column-links__third {
+    display: flex;
+    flex-direction: column;
+}
+.column-links__columns {
+    display: flex;
+    gap: 36px;
+}
+.column-contact {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 100%;
+    letter-spacing: 0.85px;
+    color: #fff;
+    max-width: 141px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 @media (max-width: 768px) {
     .our-capabilities__header {
         flex-direction: column;
